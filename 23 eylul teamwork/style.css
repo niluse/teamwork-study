@@ -1,0 +1,67 @@
+body{
+    font-family: "Roboto Condensed", sans-serif;
+}
+h2{
+    color: blueviolet;
+}
+.languages li{
+    background-color: lightgreen;
+    border: 1px solid orange;
+    border-radius: 15px;
+    margin: 0.8rem;
+    padding: 0.8rem;
+    list-style-position: inside;
+    width: 30rem;
+    list-style-image: url(./img/house-solid\ \(1\).svg);
+    border-left: 5px solid gray;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.languages li:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.fa-sun, .fa-moon{
+    color: rgb(255, 255, 140);
+}
+ul.p-class li:first-child{
+    color: red;
+}
+ul.p-class li:last-child{
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul.p-class li:nth-child(3){
+    color: red;
+}
+ul.p-class li:nth-child(5){
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul.p-class li:nth-child(odd){
+    background-color: gray;
+}
+ul.p-class li:not(odd){
+    background-color: bisque;
+}
+ul.p-class li:hover{
+    background-color: purple;
+    color: bisque;
+}
+input:focus{
+    background-color: red;
+    outline: none;
+    border: 3px dashed orange;
+    color: white;
+}
+nav.links a{
+    color: red;
+}
+nav.links a:hover{
+    color: rgb(150, 255, 160);
+}
+nav.nav-button a{
+    color: orange;
+    border: 2px solid orange;
+    
+}

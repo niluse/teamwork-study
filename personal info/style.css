@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color: gray;
+}
+main{
+    background-color: white;
+    width: 750px;
+    height: 490px;
+    border: 1px solid black;
+    /* margin: auto;
+    margin-top: 150px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+}
+.step{
+    width: 240px;
+    height: 450px;
+    background-image: url(./img/bg-sidebar-desktop.svg);
+    background-position: center center;
+    border-radius: 10%;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    /* display: flex; */
+}
+main .step ul li {
+    color: white;
+    font-size: 10px;
+    line-height: 20px;
+    list-style-type: none;
+    margin-left: 10px;
+}
+main .step ul li span{
+    color: #B4B4B3;
+}
+/* .number li{
+    margin: 5px 0 40px;
+} */
+.step ul li div{
+    display: inline-block;
+}
+main .step ul li .number1{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 8%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+}
+main .step ul li .number2{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 22%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+}
+main .step ul li .number3{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 36%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+}
+main .step ul li .number4{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 49%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+}
+main .step ul li .number{
+    border:  1px solid white;
+}
+main .step ul li .number:hover{
+    background-color: blueviolet;
+}
+
+.info{
+    width: 440px;
+    height: 430px;
+    margin-left: 290px;
+    margin-top: 23px;
+    border: 1px solid red;
+}
+.info h3{
+    color: #002756;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 5px;
+
+}
+.info p{
+    margin-top: 5px;
+    margin-bottom: .8rem;
+    color: #B4B4B3;
+}
+.info form label{
+    display: block;
+    color: #002756;
+    font-weight: bold;
+}
+.info form input{
+    display: block;
+    width: 95%;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    line-height: 25px;
+}
+/* .step ul li .number{
+    padding: 0.3rem .7rem;
+    margin-right: .3rem;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 50%;
+} */
